@@ -1,0 +1,24 @@
+# testidea
+
+- Install IntelliJ (IJ) with plugins La Clojure & Leiningen
+- Install Leiningen
+  - Download (https://raw.github.com/technomancy/leiningen/preview/bin/lein)
+  - and run the lein script
+- Configure Leiningen IJ plugin with above lein script
+- lein new <yourproject> (command line)
+- Create a new project in IJ from existing sources created by lein in previous step
+- Open Leiningen tool window in IJ , "add Leining file", pick project.clj in <yourproject>
+- Try out Leiningen goals in IJ for your project
+- Done
+
+## Usage
+
+lein test
+
+## License
+
+Copyright (C) 2012 @aydinkeskin
+
+Distributed under the Eclipse Public License, the same as Clojure.
+
+This file was modified by IntelliJ IDEA 11.1.3 for binding GitHub repository
